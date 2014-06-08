@@ -18,12 +18,12 @@ console.log("mousedown");
 playHadouken();
 $(this).find(".ryu-ready").hide();
 $(this).find(".ryu-throwing").show();
-//$(".handouken").css({"left":"-195px;"});
+//(".handouken").css({"left":"-195px;"});
 //$(".handouken").show();
 $(".handouken").show().finish().animate(
 {"left":"200px"}, 500, function(){
 $(this).hide();
-$(".handouken").css({"left":"-195px;"});
+$(this).css({"left":"-195px"});
 });
 
 })
