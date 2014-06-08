@@ -15,12 +15,12 @@ min-width:1200px;
 float:left;
 }
 
-.ryu-still, .ryu-ready, .ryu-throwing {
+.ryu-still, .ryu-ready, .ryu-throwing, .ryu-cool {
 height:494px;
 width:659px;
 }
 
-.ryu-ready, .ryu-throwing {
+.ryu-ready, .ryu-throwing .ryu-cool {
 display:none;
 }
 
@@ -36,7 +36,7 @@ background-image:url("https://raw.githubusercontent.com/basseljaafar/jquery-stre
 background-image:url("https://raw.githubusercontent.com/basseljaafar/jquery-streetfighter/master/images/ryu-throwing-hadouken.png");
 }
 
-.handouken, .ryu-throwing, .ryu-ready, .ryu-still {
+.handouken, .ryu-throwing, .ryu-ready, .ryu-still, .ryu-cool {
 background-repeat:no-repeat;
 }
 
@@ -49,4 +49,8 @@ display:none;
 position:relative;
 top:167px;
 left:-195px;
+}
+
+.ryu-cool {
+background-image:url("https://raw.githubusercontent.com/basseljaafar/jquery-streetfighter/master/images/ryu-cool.gif");
 }

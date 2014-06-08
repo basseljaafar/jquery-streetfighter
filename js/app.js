@@ -43,4 +43,35 @@ function playHadouken () {
   $("#hadouken-sound")[0].play();
 }
 
+$(document).keydown(function(e){
+
+	if(e.keyCode == 88){
+	cool();
+		console.log("X");
+		}
+
+});
+
+$(document).keyup(function(e){
+
+	if(e.keyCode == 88){
+	$(".ryu").hide;
+	$(".ryu-still").show();
+	$("#cool-sound")[0].volume = 0.5;
+	$("#cool-sound")[0].load();
+	$("#cool-sound")[0].play();
+		}
+
+});
+
+
+
+function cool() {
+$(".ryu-still").hide();
+$(".ryu-ready").hide();
+$(".ryu-throwing").hide();
+$(".ryu-cool").show();
+
+}
+
 });
