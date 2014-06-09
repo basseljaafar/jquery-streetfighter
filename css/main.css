@@ -13,6 +13,7 @@ min-width:1200px;
 
 .ryu {
 float:left;
+/*outline:1px solid blue;*/
 }
 
 .ryu-still, .ryu-ready, .ryu-throwing, .ryu-cool {
@@ -20,7 +21,7 @@ height:494px;
 width:659px;
 }
 
-.ryu-ready, .ryu-throwing .ryu-cool {
+.ryu-ready, .ryu-throwing, .ryu-cool {
 display:none;
 }
 
@@ -34,13 +35,14 @@ background-image:url("https://raw.githubusercontent.com/basseljaafar/jquery-stre
 
 .ryu-throwing {
 background-image:url("https://raw.githubusercontent.com/basseljaafar/jquery-streetfighter/master/images/ryu-throwing-hadouken.png");
+/*outline:1px solid orange;*/
 }
 
-.handouken, .ryu-throwing, .ryu-ready, .ryu-still, .ryu-cool {
+.hadouken, .ryu-throwing, .ryu-ready, .ryu-still, .ryu-cool {
 background-repeat:no-repeat;
 }
 
-.handouken {
+.hadouken {
 float:left;
 width:156px;
 height:90px;
@@ -53,4 +55,40 @@ left:-195px;
 
 .ryu-cool {
 background-image:url("https://raw.githubusercontent.com/basseljaafar/jquery-streetfighter/master/images/ryu-cool.gif");
+}
+
+.text, .pic {
+position:absolute;
+height:500px;
+width:500px;
+/*outline:1px solid red;*/
+left:800px;
+display:none;
+}
+
+.explain {
+position:relative;
+font-size:2.1em;
+/*display:block;*/
+width:300px;
+font-family:serif;
+/*display:none;*/
+}
+
+.one {
+margin-top:100px;
+margin-left:50px;
+}
+
+.two {
+margin-top:100px;
+margin-left:150px;
+}
+
+.sf {
+
+height:400px;
+width:400px;
+margin-left:50px;
+margin-top:50px;
 }
